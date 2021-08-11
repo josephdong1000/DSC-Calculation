@@ -4,6 +4,7 @@
 import numpy as np
 import nibabel as nib
 import sys
+from scipy.spatial.distance import directed_hausdorff
 
 # take in predicted and true paths from cmd line
 pred_path = sys.argv[1]
@@ -23,4 +24,9 @@ def dice(pred_arr, true_arr, k = 1):
     dicescore = intersection / (np.sum(pred_arr) + np.sum(true_arr))
     return dicescore
 
+# calculate Hausdorff distance
+def hausdorff(u, v):
+    return max(directed_hausdorff(u, v)[0], directed_hausdorff(v, u)[0])
+
 print(dice(pred_arr, true_arr, k = 1))
+print(hausdorff(pred_arr, true_arr))
