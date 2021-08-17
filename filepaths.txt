@@ -1,0 +1,15 @@
+sub-RID0013 ses-clin20000817
+sub-RID0018 ses-clin20000729
+sub-RID0020 ses-clin20000520
+sub-RID0024 ses-clin20001130
+sub-RID0032 ses-clin20000706
+sub-RID0032 ses-clin20011021
+sub-RID0046 ses-clin20000617
+sub-RID0051 ses-clin20010202
+sub-RID0055 ses-clin20000504
+sub-RID0055 ses-clin20010802
+sub-RID0064 ses-clin20000830
+sub-RID0117 ses-clin20010222
+sub-RID0143 ses-clin20000825
+sub-RID0179 ses-clin20000709
+sub-RID0559 ses-clin20050914
